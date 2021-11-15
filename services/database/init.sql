@@ -1,5 +1,4 @@
-
-3create table pathways(
+create table pathways(
 	pathway_id serial not null primary key,
 	name varchar(128) not null
 );
