@@ -17,6 +17,7 @@ func main(){
 	pathways.GET("/", ctrl.Get)
 	pathways.POST("/", ctrl.Post)	
 	pathways.PUT("/", ctrl.Update)
+	pathways.DELETE("/", ctrl.Delete)
 
 	fmt.Println(":8080")
 

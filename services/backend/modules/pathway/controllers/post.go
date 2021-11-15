@@ -18,6 +18,5 @@ func Post(ctx *gin.Context){
 
 	pathway := model.Post(newPathway)
 
-	ctx.JSON(201, pathway
-	)
+	ctx.JSON(201, pathway)
 }
