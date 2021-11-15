@@ -8,8 +8,8 @@ create table courses(
 	course_id serial not null primary key,
 	name varchar(128) not null,
 	is_active boolean default false,
-	created_at  timestamp with time zone default current_timestamp,
-	/*update*/
+	created_at timestamp with time zone default current_timestamp,
+	update_at timestamp with time zone default null,
 	pathway_id int not null references pathway(pathway_id)
 );
 
